@@ -13,7 +13,13 @@ section{
     border-radius: 7px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.381);
     padding: 15px;
+    margin: auto;
+    
 
+}
+div{
+    text-align: center;
+    padding: 5px;
 }
 footer{
     color: white;
