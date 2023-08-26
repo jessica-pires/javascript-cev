@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos DOM</title>
+    <style>
+        body{
+            background-color: rgb(111, 130, 222);
+            color: white;
+            font: normal 18pt arial ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Aprendendo DOM</h1>
+    <p>Testando Testando</p>
+    <p>Iniciando os estudos com <strong>DOM</strong></p>
+    <div>clique aqui</div>
+
+
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0] //selecionando um elemento 'p'
+        p1.style.color = 'black' //estilizando o elemento 
+        window.document.write('p para sempre')//entra no documento 'pagina' e ecreve
+
+        var corpo = window.document.body // seleciona dentro de uma variavel
+        corpo.style.background = 'black' // estiliza a variavel
+    </script> 
+    
+</body>
+</html>

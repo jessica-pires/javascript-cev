@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos do DOM</title>
+    <style>
+        #area{
+            background-color: chocolate;
+            color: white;
+            width: 250px;
+            height: 250px;
+            text-align: center;
+            font: normal 20px arial;
+            line-height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <p id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">Interagindo....</p>
+
+    <script>
+        function clicar(){
+            var a = window.document.querySelector('#area')
+            a.innerHTML = 'Clicou'
+            a.style.background = 'red'
+        }
+        function entrar(){
+            var a = window.document.querySelector('#area')
+            a.innerHTML = ('entrou')
+        }
+        function sair(){
+            var a = window.document.querySelector('#area')
+            a.innerHTML = ('saiu')
+            a.style.background = 'chocolate';
+        }
+    </script>
+</body>
+</html>
