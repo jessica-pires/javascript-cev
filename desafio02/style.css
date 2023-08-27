@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(148, 148, 253, 0.775);
+}
+header{
+    color: white;
+    text-align: center;
+
+}
+section{
+    width: 500px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.381);
+    padding: 15px;
+    margin: auto;
+    
+
+}
+div{
+    text-align: center;
+    padding: 5px;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
