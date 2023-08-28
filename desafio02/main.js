@@ -10,7 +10,7 @@ function verificar(nome){
     var forsex = document.querySelector('#sexo')
     var idade = ano - Number(anoUsuario.value)
     var genero = 'teste';
-    var param = prompt('digite seu nome')
+    //var param = prompt('digite seu nome')
     //if (forsex.value){
     //  genero = 'homem';
     //} else if (forsex[1].checked){
