@@ -9,11 +9,12 @@ function verificar(){
   } else {
     var forsex = document.querySelector('#sexo')
     var idade = ano - Number(anoUsuario.value)
-    var genero =' '
-    if (forsex[0].checked){
-      genero = 'homem';
-    } else if (forsex[1].checked){
-      genero = 'mulher';
+    forsex.value
+    var genero ='';
+    //if (forsex.value){
+    //  genero = 'homem';
+    //} else if (forsex[1].checked){
+     // genero = 'mulher';
     }
   res.innerHTML = 'Voce é '+gereno+' com '+idade+' anos de idade.'
   //res.innerHTML = 'dectamos'
@@ -22,4 +23,4 @@ function verificar(){
   
   }
 
-}
+
