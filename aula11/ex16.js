@@ -1,5 +1,5 @@
 // estruturas aninhadas
-var idade = 65
+var idade = 20
 console.log(`voce tem ${idade} anos de idade!`)
 if(idade <16){
     console.log('voce é de menor, Você nao vota')
