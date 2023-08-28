@@ -9,7 +9,7 @@ function verificar(){
   } else {
     var forsex = document.querySelector('#sexo')
     var idade = ano - Number(anoUsuario.value)
-    var genero = forsex.value;
+    var genero = 'teste';
     //if (forsex.value){
     //  genero = 'homem';
     //} else if (forsex[1].checked){
