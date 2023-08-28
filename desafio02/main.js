@@ -10,15 +10,9 @@ function verificar(nome){
     var forsex = document.querySelector('#sexo')
     var idade = ano - Number(anoUsuario.value)
     var genero = 'teste';
-    //var param = prompt('digite seu nome')
-    //if (forsex.value){
-    //  genero = 'homem';
-    //} else if (forsex[1].checked){
-     // genero = 'mulher';
-    //}
+  
   res.innerHTML = 'Voce é '+nome+' com '+idade+' anos de idade.'
-  //res.innerHTML = 'dectamos'
-  //res.innerHTML = 
+  
   
   }
   }
