@@ -5,17 +5,18 @@ function verificar(){
   var res = document.querySelector('#res') //texto
   
   if (anoUsuario.value.length == 0 || Number(anoUsuario.value) > ano){
-    window.alert('[ERRO] Verifique os dados e tente novamente')
+    res.innerHTML = '[ERRO] Verifique os dados e tente novamente'
   } else {
     var forsex = document.querySelector('#sexo')
     var idade = ano - Number(anoUsuario.value)
     var genero = 'teste';
+    var param = confirm('digite seu nome')
     //if (forsex.value){
     //  genero = 'homem';
     //} else if (forsex[1].checked){
      // genero = 'mulher';
     //}
-  res.innerHTML = 'Voce é '+gereno+' com '+idade+' anos de idade.'
+  res.innerHTML = 'Voce é '+genero+' com '+idade+' anos de idade.'
   //res.innerHTML = 'dectamos'
   //res.innerHTML = 
   
