@@ -15,7 +15,9 @@ function verificar(){
     } else if (forsex[1].checked){
       genero = 'mulher';
     }
-  res.innerHTML = `Voce é ${gereno} com ${idade}`
+  res.innerHTML = 'Voce é '+gereno+' com '+idade+' anos de idade.'
+  //res.innerHTML = 'dectamos'
+  //res.innerHTML = 
   
   
   }
