@@ -9,9 +9,9 @@ function verificar(nome){
   } else {
     var forsex = document.querySelector('#sexo')
     var idade = ano - Number(anoUsuario.value)
-    var genero = 'teste';
+    
   
-  res.innerHTML = 'Voce é '+nome+' com '+idade+' anos de idade.'
+  res.innerHTML = 'Voce tem '+idade+' anos de idade.'
   
   
   }
